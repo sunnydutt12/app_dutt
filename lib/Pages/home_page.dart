@@ -11,9 +11,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("catalog App"),
       ),
-      body: Center(
-          child:
-              Container(child: Text("Welcome to my $days own World of $name"))),
+      body: Center(child: Container(child: Text("Welcome to $days of $name"))),
       drawer: Drawer(),
     );
   }
