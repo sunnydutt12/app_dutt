@@ -1,7 +1,11 @@
 import 'package:app_dutt/Pages/login_page.dart';
 import 'package:app_dutt/utilities/routes.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:google_fonts/google_fonts.dart';
+=======
+
+>>>>>>> 2fba3e6fb4745812122412ecba95c2aac749ea1c
 import 'Pages/home_page.dart';
 
 void main() {

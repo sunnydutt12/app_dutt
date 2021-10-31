@@ -11,10 +11,15 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("catalog App"),
       ),
+<<<<<<< HEAD:lib/Pages/home_page.dart
       body: Center(
           child:
               Text("Welcome to my $days own World of $name")),
       drawer: const Drawer(),
+=======
+      body: Center(child: Container(child: Text("Welcome to $days of $name"))),
+      drawer: Drawer(),
+>>>>>>> 2fba3e6fb4745812122412ecba95c2aac749ea1c:lib/home_page.dart
     );
   }
 }
